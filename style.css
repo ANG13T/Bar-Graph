@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body{
+    background: linear-gradient(to right, #4568dc, #ad8ad5);
+}
+
+
+h1{
+    font-family:'Roboto Condensed';
+    text-align:center;
+}
+
+svg{
+   position: absolute;
+   left:30%;
+}
+
+#labels{
+    font-family: 'Muli';
+}
+
+.legend{
+    border:0.3rem solid black;
+    border-radius: 1rem;
+    color:black;
+    width:25%;
+    background-color:rgb(240, 240, 240);
+}
+
+#legend-title{
+    text-align:left;
+    color:black;
+}
+
+li{
+    list-style-type: none;
+    font-family:'Manjari'; 
+    margin-bottom:.3rem;
+    font-size: 20px;
+}
+
+h1{
+    color:rgb(0, 0, 0);
+}
+
+#yellow{
+    color:rgb(244, 210, 15);
+}
+
+#neongreen{
+    color:rgb(123, 222, 37);;
+}
+
+#cyan{
+    color:rgb(55, 194, 192);
+}
+
+#green{
+    color:rgb(74, 198, 109);
+}
+
+#blue{
+    color:rgb(68, 134, 193);
+}
+
+#purple{
+    color:rgb(186, 100, 223);
+}
+
+#rectangle0{
+    fill: rgb(199, 228, 93);
+   }
+
+#rectangle1{
+ fill: rgb(123, 222, 37);
+}
+
+#rectangle2{
+    fill: rgb(55, 194, 192);
+   }
+   #rectangle3{
+    fill: rgb(74, 198, 109);
+   }
+   #rectangle4{
+    fill: rgb(68, 134, 193);
+   }
+   #rectangle5{
+    fill: rgb(186, 100, 223);
+   }
